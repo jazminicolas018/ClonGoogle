@@ -1,14 +1,13 @@
 /* Selector Universal es el asterísco, todo en cada elemento */
+
 * {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-
     /* Espacio dentro del borde */
     padding: 0px;
     /* Espacio fuera del borde */
     margin: 0px;
-
 }
 
 header {
@@ -29,6 +28,7 @@ footer {
     font-size: 19px;
 }
 
+
 /* Estilos para elementos de lista lado a lado */
 
 li {
@@ -47,23 +47,19 @@ header ul {
 .icono {
     /* Cambiando el fondo*/
     background-color: white;
-
     /* Cambiando el modelo de caja*/
-
     /* Espacio dentro del borde */
     padding: 0px;
     /* Espacio fuera del borde */
     margin: 0px;
-
     /* Tamaños elemento */
     width: 30px;
     height: 30px;
-
     /* Bordes */
     border: none;
 }
 
-#logo{
+#logo {
     padding-top: 6em;
     margin-bottom: 1em;
 }
@@ -92,6 +88,7 @@ header ul {
     border: none;
 }
 
+
 /* Display flex para menu */
 
 #menu {
@@ -118,12 +115,15 @@ header ul {
     user-select: none;
 }
 
-#botones-busqueda button:hover{
+#botones-busqueda button:hover {
     border: 1px solid #626262;
 }
 
 body {
-    background-image: url('imagen.png'); /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
-    background-size: cover; /* Ajusta el tamaño de la imagen para que cubra todo el cuerpo */
-    background-position: center; /* Centra la imagen en el cuerpo */
+    background-image: url('assets/imagen.png');
+    /* Reemplaza 'ruta_de_tu_imagen.jpg' con la ruta de tu imagen */
+    background-size: cover;
+    /* Ajusta el tamaño de la imagen para que cubra todo el cuerpo */
+    background-position: center;
+    /* Centra la imagen en el cuerpo */
 }
